@@ -49,7 +49,7 @@ fun winner(): String {
             else -> "Computer"
         }
 
-            "scissor" -> when (computerChoice) {
+            else -> when (computerChoice) {
             "rock" -> "Computer"
             "paper" -> "User"
             else -> "Tie"
